@@ -7,6 +7,7 @@ This is a test framework which uses Selenium for browser automation uses other d
 5) Extent Reports
 6) Maven
 7) Maven profiling integration
+8) Java
 
 Setup for framework - uses Page Object Model for Design Pattern
 1) Each page for the application has its class (pages package)
