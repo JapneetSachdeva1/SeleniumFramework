@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.ListenerHelper"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="RegisterPageTests(failed)" verbose="0">
+    <classes>
+      <class name="pageTests.RegisterPageTests">
+        <methods>
+          <include name="testPositiveRegistrationOfUser" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- pageTests.RegisterPageTests -->
+    </classes>
+  </test> <!-- RegisterPageTests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

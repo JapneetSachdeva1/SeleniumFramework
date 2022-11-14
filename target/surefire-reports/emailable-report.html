@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">All Test Suite</th></tr>
+<tr><td><a href="#t0">HomePageTests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">13,211</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">LoginPageTests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">16,268</td><td></td><td></td></tr>
+<tr><td><a href="#t2">RegisterPageTests</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">22,434</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num attn">1</th><th class="num">51,913</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">HomePageTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">pageTests.HomePageTests</td><td><a href="#m0">testLoginPageRouting</a></td><td rowspan="1">1668417471236</td><td rowspan="1">5537</td></tr><tr class="passedeven"><td><a href="#m1">testURLLoading</a></td><td rowspan="1">1668417466215</td><td rowspan="1">3645</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">LoginPageTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">pageTests.LoginPageTests</td><td><a href="#m2">TestNegativeUserLogin</a></td><td rowspan="1">1668417473988</td><td rowspan="1">5616</td></tr><tr class="passedeven"><td><a href="#m3">TestPositiveUserLogin</a></td><td rowspan="1">1668417466162</td><td rowspan="1">5978</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">RegisterPageTests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">pageTests.RegisterPageTests</td><td><a href="#m4">testPositiveRegistrationOfUser</a></td><td rowspan="1">1668417478721</td><td rowspan="1">20779</td></tr></tbody>
+</table>
+<h2>HomePageTests</h2><h3 id="m0">pageTests.HomePageTests#testLoginPageRouting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">pageTests.HomePageTests#testURLLoading</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginPageTests</h2><h3 id="m2">pageTests.LoginPageTests#TestNegativeUserLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">pageTests.LoginPageTests#TestPositiveUserLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>RegisterPageTests</h2><h3 id="m4">pageTests.RegisterPageTests#testPositiveRegistrationOfUser</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]
+	at pageTests.RegisterPageTests.testPositiveRegistrationOfUser(RegisterPageTests.java:25)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

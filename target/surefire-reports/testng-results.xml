@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-14T09:17:43Z" name="All Test Suite" finished-at="2022-11-14T09:18:19Z" duration-ms="35940">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTests.testLoginPageRouting()[pri:2, instance:pageTests.HomePageTests@7c24b813]" name="testLoginPageRouting" class="pageTests.HomePageTests"/>
+        <method signature="RegisterPageTests.testPositiveRegistrationOfUser(java.util.HashMap)[pri:1, instance:pageTests.RegisterPageTests@71a8adcf]" name="testPositiveRegistrationOfUser" class="pageTests.RegisterPageTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HomePageTests.testURLLoading()[pri:1, instance:pageTests.HomePageTests@7c24b813]" name="testURLLoading" class="pageTests.HomePageTests"/>
+        <method signature="LoginPageTests.TestNegativeUserLogin()[pri:2, instance:pageTests.LoginPageTests@2c1b194a]" name="TestNegativeUserLogin" class="pageTests.LoginPageTests"/>
+        <method signature="LoginPageTests.TestPositiveUserLogin()[pri:1, instance:pageTests.LoginPageTests@2c1b194a]" name="TestPositiveUserLogin" class="pageTests.LoginPageTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-11-14T09:17:43Z" name="HomePageTests" finished-at="2022-11-14T09:17:56Z" duration-ms="13211">
+      <class name="pageTests.HomePageTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pageTests.HomePageTests@7c24b813]" started-at="2022-11-14T09:17:43Z" name="setup" finished-at="2022-11-14T09:17:46Z" duration-ms="2456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testURLLoading()[pri:1, instance:pageTests.HomePageTests@7c24b813]" started-at="2022-11-14T09:17:46Z" name="testURLLoading" description="Test routing to Homepage is working fine" finished-at="2022-11-14T09:17:49Z" duration-ms="3645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURLLoading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.HomePageTests@7c24b813]" started-at="2022-11-14T09:17:49Z" name="tearDown" finished-at="2022-11-14T09:17:50Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pageTests.HomePageTests@7c24b813]" started-at="2022-11-14T09:17:50Z" name="setup" finished-at="2022-11-14T09:17:51Z" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginPageRouting()[pri:2, instance:pageTests.HomePageTests@7c24b813]" started-at="2022-11-14T09:17:51Z" name="testLoginPageRouting" description="Test routing to login page is working from Homepage" finished-at="2022-11-14T09:17:56Z" duration-ms="5537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageRouting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.HomePageTests@7c24b813]" started-at="2022-11-14T09:17:56Z" name="tearDown" finished-at="2022-11-14T09:17:56Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTests.HomePageTests -->
+    </test> <!-- HomePageTests -->
+    <test started-at="2022-11-14T09:17:43Z" name="LoginPageTests" finished-at="2022-11-14T09:18:00Z" duration-ms="16268">
+      <class name="pageTests.LoginPageTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pageTests.LoginPageTests@2c1b194a]" started-at="2022-11-14T09:17:43Z" name="setup" finished-at="2022-11-14T09:17:46Z" duration-ms="2403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestPositiveUserLogin()[pri:1, instance:pageTests.LoginPageTests@2c1b194a]" started-at="2022-11-14T09:17:46Z" name="TestPositiveUserLogin" description="Test user is able to login and routed to Account Page" finished-at="2022-11-14T09:17:52Z" duration-ms="5978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPositiveUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.LoginPageTests@2c1b194a]" started-at="2022-11-14T09:17:52Z" name="tearDown" finished-at="2022-11-14T09:17:52Z" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pageTests.LoginPageTests@2c1b194a]" started-at="2022-11-14T09:17:52Z" name="setup" finished-at="2022-11-14T09:17:53Z" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestNegativeUserLogin()[pri:2, instance:pageTests.LoginPageTests@2c1b194a]" started-at="2022-11-14T09:17:53Z" name="TestNegativeUserLogin" description="Test user is no able to login" finished-at="2022-11-14T09:17:59Z" duration-ms="5616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNegativeUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.LoginPageTests@2c1b194a]" started-at="2022-11-14T09:17:59Z" name="tearDown" finished-at="2022-11-14T09:18:00Z" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTests.LoginPageTests -->
+    </test> <!-- LoginPageTests -->
+    <test started-at="2022-11-14T09:17:57Z" name="RegisterPageTests" finished-at="2022-11-14T09:18:19Z" duration-ms="22434">
+      <class name="pageTests.RegisterPageTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pageTests.RegisterPageTests@71a8adcf]" started-at="2022-11-14T09:17:57Z" name="setup" finished-at="2022-11-14T09:17:58Z" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPositiveRegistrationOfUser(java.util.HashMap)[pri:1, instance:pageTests.RegisterPageTests@71a8adcf]" started-at="2022-11-14T09:17:58Z" name="testPositiveRegistrationOfUser" description="Register a new user and is routed to Account page" data-provider="getRegisterUserData" finished-at="2022-11-14T09:18:19Z" duration-ms="20779" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{lName=Cart, password=Hello12, telephone=3332221144, fName=Open, email=opencar@mailinator.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Your Account Has Been Created!] but found [Register Account]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Your Account Has Been Created!] but found [Register Account]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at pageTests.RegisterPageTests.testPositiveRegistrationOfUser(RegisterPageTests.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPositiveRegistrationOfUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageTests.RegisterPageTests@71a8adcf]" started-at="2022-11-14T09:18:19Z" name="tearDown" finished-at="2022-11-14T09:18:19Z" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageTests.RegisterPageTests -->
+    </test> <!-- RegisterPageTests -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

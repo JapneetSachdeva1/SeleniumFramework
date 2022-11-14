@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="utils.ListenerHelper"/>
+    </listeners>
+
+    <test  name="HomePageTests">
+        <classes>
+            <class name="pageTests.HomePageTests"/>
+        </classes>
+    </test>
+
+    <test  name="LoginPageTests">
+        <classes>
+            <class name="pageTests.LoginPageTests"/>
+        </classes>
+    </test>
+
+    <test  name="RegisterPageTests">
+        <classes>
+            <class name="pageTests.RegisterPageTests"/>
+        </classes>
+    </test>
+</suite>
