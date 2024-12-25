@@ -88,12 +88,18 @@ Example:
 BaseTest.java: A base class for test setup and teardown (e.g., WebDriver initialization, loading config).
 
 Key Highlights:
-TestNG and Maven: A well-organized framework leveraging TestNG for test execution and Maven for dependency management.
-Page Object Model (POM): Follows POM design for better maintainability and readability.
-Modular Design: Separate modules for pages, utilities, and tests enhance scalability.
-Reporting: Includes timestamped HTML reports for test execution tracking.
-Reusable Components: Shared code in base and utils promotes reusability and reduces redundancy.
-This framework structure is professional and aligns with industry standards for Selenium-based test automation.
+
+- TestNG and Maven: A well-organized framework leveraging TestNG for test execution and Maven for dependency management.
+
+- Page Object Model (POM): Follows POM design for better maintainability and readability.
+
+- Modular Design: Separate modules for pages, utilities, and tests enhance scalability.
+
+- Reporting: Includes timestamped HTML reports for test execution tracking.
+
+- Reusable Components: Shared code in base and utils promotes reusability and reduces redundancy.
+
+- This framework structure is professional and aligns with industry standards for Selenium-based test automation.
 
 ![napkin-selection](https://github.com/user-attachments/assets/6afe8e4f-45be-4b49-8810-5f0248e71494)
 
